@@ -1,0 +1,1 @@
+read about binary search

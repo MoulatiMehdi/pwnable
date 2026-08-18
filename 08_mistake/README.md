@@ -1,0 +1,5 @@
+We all make mistakes, let's move on.
+(don't take this too seriously, no fancy hacking skill is required at all)
+This task is based on real event
+
+ssh mistake@pwnable.kr -p2222 (pw:guest)
