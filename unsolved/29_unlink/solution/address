@@ -1,0 +1,57 @@
+shell() address : 0x080491d6
+
+A : ebp-0x14 
+C : ebp-0x10
+B : ebp-0xc 
+
+    main 
+A->fd = B 
+A->bk  
+A->buf 
+
+B->fd = C 
+B->bk = A
+B->buf 
+
+C->fd 
+C->bk = B 
+C->buf 
+
+
+
+    unlink  (P = B)
+
+BK = A? 
+FD = C?
+
+FD->bk = BK 
+BK->fd = FD
+
+
+
+
+
+
+main stack 
+ebp 
+    ----
+
+    ----
+
+    ----
+
+    ----
+    B
+    ----
+C
+----
+A
+--- 
+esp 
+B
+unlink stack 
+ebp 
+
+
+
+
